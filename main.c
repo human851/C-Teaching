@@ -21,18 +21,19 @@ int main(int argc, char *argv[]) {
 	scanf("%"STRINGIFY(LEN)"s",&n);
 
 	printf("%s\n",n);
+	printf("Hello 
 	
 	return 0;
 }
 
 void even(int a){
 	if(a%2==0)
-		printf("%d是偶数！",a);
+		printf("%d鏄伓鏁帮紒",a);
 	else
-		printf("%d是奇数！",a);
+		printf("%d鏄鏁帮紒",a);
 }
 
-//矩阵转置 
+//鐭╅樀杞疆 
 //const int n=5 ;
 //	int i , j , k=1;
 //	int arr[2][3] , brr[3][2];
